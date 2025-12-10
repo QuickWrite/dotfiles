@@ -1,0 +1,6 @@
+[open]
+editor = "vim"
+
+[mgr]
+show_hidden = true
+
