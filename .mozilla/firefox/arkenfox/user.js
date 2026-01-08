@@ -1304,3 +1304,6 @@ user_pref('geo.provider.use_geoclue', false);
 user_pref('signon.rememberSignons', false);
 user_pref('services.sync.prefs.sync.signon.rememberSignons', false);
 
+// Personal Pref for Mouse Wheel Dragging
+user_pref('general.autoScroll', true);
+
