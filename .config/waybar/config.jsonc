@@ -29,7 +29,7 @@
   /* === Modules Left === */
   "custom/archicon": {
     "format": "",
-    "on-click": "rofi --show drun",
+    "on-click": "rofi -show drun",
     "tooltip": false
   },
   
