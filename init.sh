@@ -18,5 +18,5 @@ pacman -Syu --needed --noconfirm
 pacman -S hyprland kitty rofi waybar --needed --noconfirm
 
 # Install extra terminal apps
-pacman -S btop yazi eza vim mandoc man-pages --needed --noconfirm
+pacman -S btop yazi eza bat bat-extras vim man-pages --needed --noconfirm
 
