@@ -19,5 +19,5 @@ MONITOR=$(
   '
 )
 
-hyprctl dispatch moveworkspacetomonitor "$WORKSPACE $MONITOR"
-hyprctl dispatch workspace "$WORKSPACE"
+hyprctl dispatch "hl.dsp.move({ workspace = \"$WORKSPACE\", monitor = \"$MONITOR\" })"
+hyprctl dispatch "hl.dsp.focus({ workspace = \"$WORKSPACE\" })"
