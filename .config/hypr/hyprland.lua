@@ -120,6 +120,15 @@ hl.config({
         layout = "dwindle",
     },
 
+    -- general cursor stuff
+    cursor = {
+       warp_on_change_workspace = 0,
+    },
+
+    binds = {
+       workspace_center_on = 0,
+    },
+
     -- https://wiki.hypr.land/Configuring/Variables/#decoration
     decoration = {
         rounding       = 5,
