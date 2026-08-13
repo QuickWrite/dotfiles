@@ -407,7 +407,7 @@ hl.device({
 -- See https://wiki.hypr.land/Configuring/Keywords/
 
 local mainMod  = "SUPER"       -- Sets "Windows" key as main modifier
-local shiftMod = "SUPER_SHIFT" -- Sets SHIFT + "Windows" key as second main modifier
+local shiftMod = mainMod .. " + SHIFT" -- Sets SHIFT + "Windows" key as second main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Binds/ for more
 
